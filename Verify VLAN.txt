@@ -1,0 +1,8 @@
+en
+conf t
+vlan 20 
+exit
+
+int range fa0/3-4
+switchport mode access
+switchport access vlan 20
